@@ -1,5 +1,5 @@
 # IIO13100-HTYO (EI LOPULLINEN HARJOITUSTYÖ)
 JavaEE-ohjelmoinnin harjoitustyö
-
-Arkkitehtuuri:
-https://github.com/jani-kahkonen/IIO13100-HTYO/blob/master/webshop/documents/architecture.png
+Yksinkertainen verkkokauppa, jonka avulla käyttäjät voivat selata ja tilata tuotteita, kuten tyypillisesti verkkokaupoissa.
+# Tekijä
+Jani Kähkönen
