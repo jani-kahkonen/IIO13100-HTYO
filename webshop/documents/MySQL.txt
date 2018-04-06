@@ -1,0 +1,25 @@
+CREATE TABLE `account` (
+ `id` int(5) NOT NULL AUTO_INCREMENT,
+ `active` boolean DEFAULT NULL,
+ `email` varchar(32) DEFAULT NULL,
+ `password` varchar(32) DEFAULT NULL,
+ `role` varchar(32) DEFAULT NULL,
+ PRIMARY KEY (`id`));
+
+INSERT INTO account (active, email, password, role) VALUES (true, 'test', 'test', 'test');
+
+CREATE TABLE `product` (
+ `id` int(5) NOT NULL AUTO_INCREMENT,
+ `price` float DEFAULT NULL,
+ `name` varchar(32) DEFAULT NULL,
+ PRIMARY KEY (`id`));
+
+INSERT INTO product (price, name) VALUES (10.0, 'tuote_1');
+INSERT INTO product (price, name) VALUES (15.5, 'tuote_2');
+INSERT INTO product (price, name) VALUES (20.0, 'tuote_3');
+INSERT INTO product (price, name) VALUES (25.5, 'tuote_4');
+INSERT INTO product (price, name) VALUES (30.0, 'tuote_5');
+INSERT INTO product (price, name) VALUES (35.5, 'tuote_6');
+INSERT INTO product (price, name) VALUES (40.0, 'tuote_7');
+INSERT INTO product (price, name) VALUES (45.5, 'tuote_8');
+INSERT INTO product (price, name) VALUES (50.0, 'tuote_9');
