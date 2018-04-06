@@ -1,2 +1,2 @@
-# IIO13100-HTYO
-JavaEE-ohjelmointi
+# IIO13100-HTYO (EI LOPULLINEN HARJOITUSTYÖ)
+JavaEE-ohjelmoinnin harjoitustyö
